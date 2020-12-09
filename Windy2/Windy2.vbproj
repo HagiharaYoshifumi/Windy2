@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0795447-8032-4FE7-8011-FB449451CF87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Windy2.My.MyApplication</StartupObject>
+    <RootNamespace>Windy2</RootNamespace>
+    <AssemblyName>Windy2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Windy2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Windy2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1Command.4, Version=4.0.20133.19605, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Ribbon.4, Version=4.0.20133.532, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Sizer.4, Version=4.1.20133.79, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="GrapeCity.Framework.InputMan.v22, Version=2.2.2013.1127, Culture=neutral, PublicKeyToken=fdd90f5c44b73170" />
+    <Reference Include="GrapeCity.Framework.PlusPak.v22, Version=2.2.2013.1127, Culture=neutral, PublicKeyToken=fdd90f5c44b73170" />
+    <Reference Include="GrapeCity.Win.Editors.v70, Version=7.0.2013.1127, Culture=neutral, PublicKeyToken=0ce01a33ce55ca12, processorArchitecture=MSIL" />
+    <Reference Include="GrapeCity.Win.PlusPak.Calendar.v70, Version=7.0.2013.1127, Culture=neutral, PublicKeyToken=63a9ba12b6923243, processorArchitecture=MSIL" />
+    <Reference Include="GrapeCity.Win.PlusPak.v70, Version=7.0.2013.1127, Culture=neutral, PublicKeyToken=63a9ba12b6923243, processorArchitecture=MSIL" />
+    <Reference Include="iGreen.Controls.uControls.uLabelX">
+      <HintPath>..\uLabelX Control\uLabelX\bin\Release\iGreen.Controls.uControls.uLabelX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>.\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>.\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ClassDataGridViewMaskedTextBoxColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrmRefreshSelecter.Designer.vb">
+      <DependentUpon>FrmRefreshSelecter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRefreshSelecter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="クラス\ClassFlickTimer.vb" />
+    <Compile Include="クラス\ClassFormControl.vb" />
+    <Compile Include="クラス\ClassLog.vb" />
+    <Compile Include="DataGridView_DragMove.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.vb">
+      <DependentUpon>FrmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoNumber.Designer.vb">
+      <DependentUpon>FrmAutoNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmBalloonnProperty.Designer.vb">
+      <DependentUpon>FrmBalloonnProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmBalloonnProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCalendar.Designer.vb">
+      <DependentUpon>FrmCalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCalendar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClosing.Designer.vb">
+      <DependentUpon>FrmClosing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClosing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmColumnProperty.Designer.vb">
+      <DependentUpon>FrmColumnProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmColumnProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmColumnHeaderProperty.Designer.vb">
+      <DependentUpon>FrmColumnHeaderProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmColumnHeaderProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmCellProperty.Designer.vb">
+      <DependentUpon>FrmCellProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmCellProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExclusion.Designer.vb">
+      <DependentUpon>FrmExclusion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExclusion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExportData.Designer.vb">
+      <DependentUpon>FrmExportData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExportData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHiddenSetting.Designer.vb">
+      <DependentUpon>FrmHiddenSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHiddenSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHolidaySetting.designer.vb">
+      <DependentUpon>FrmHolidaySetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHolidaySetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemFind.Designer.vb">
+      <DependentUpon>FrmItemFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmExpansionWork.Designer.vb">
+      <DependentUpon>FrmExpansionWork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmExpansionWork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmSheetProperty.Designer.vb">
+      <DependentUpon>FrmSheetProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmSheetProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmParent.Designer.vb">
+      <DependentUpon>FrmParent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmParent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmPieceProperty.Designer.vb">
+      <DependentUpon>FrmPieceProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmPieceProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrinterDialog.Designer.vb">
+      <DependentUpon>FrmPrinterDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrinterDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectColor.Designer.vb">
+      <DependentUpon>FrmSelectColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetting.Designer.vb">
+      <DependentUpon>FrmSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSnapShotInfo.Designer.vb">
+      <DependentUpon>FrmSnapShotInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSnapShotInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSort.Designer.vb">
+      <DependentUpon>FrmSort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSpecialTime.Designer.vb">
+      <DependentUpon>FrmSpecialTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSpecialTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmStoneProperty.Designer.vb">
+      <DependentUpon>FrmStoneProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="プロパティ画面\FrmStoneProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="モジュール\Module1.vb" />
+    <Compile Include="モジュール\ModuleKnowlbo.vb" />
+    <Compile Include="モジュール\ModuleRegistry.vb" />
+    <Compile Include="モジュール\ModuleSaveLoadData.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlPiece.Designer.vb">
+      <DependentUpon>UserControlPiece.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlPiece.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlStone.Designer.vb">
+      <DependentUpon>UserControlStone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlStone.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlTextAlignment.Designer.vb">
+      <DependentUpon>UserControlTextAlignment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlTextAlignment.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlTextAlignment2.Designer.vb">
+      <DependentUpon>UserControlTextAlignment2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ユーザコントロール\UserControlTextAlignment2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoNumber.resx">
+      <DependentUpon>FrmAutoNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRefreshSelecter.resx">
+      <DependentUpon>FrmRefreshSelecter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmBalloonnProperty.resx">
+      <DependentUpon>FrmBalloonnProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCalendar.resx">
+      <DependentUpon>FrmCalendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClosing.resx">
+      <DependentUpon>FrmClosing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmColumnProperty.resx">
+      <DependentUpon>FrmColumnProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmColumnHeaderProperty.resx">
+      <DependentUpon>FrmColumnHeaderProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmCellProperty.resx">
+      <DependentUpon>FrmCellProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExclusion.resx">
+      <DependentUpon>FrmExclusion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExportData.resx">
+      <DependentUpon>FrmExportData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHiddenSetting.resx">
+      <DependentUpon>FrmHiddenSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHolidaySetting.resx">
+      <DependentUpon>FrmHolidaySetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemFind.resx">
+      <DependentUpon>FrmItemFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmExpansionWork.resx">
+      <DependentUpon>FrmExpansionWork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmSheetProperty.resx">
+      <DependentUpon>FrmSheetProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmParent.resx">
+      <DependentUpon>FrmParent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmPieceProperty.resx">
+      <DependentUpon>FrmPieceProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrinterDialog.resx">
+      <DependentUpon>FrmPrinterDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectColor.resx">
+      <DependentUpon>FrmSelectColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetting.resx">
+      <DependentUpon>FrmSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSnapShotInfo.resx">
+      <DependentUpon>FrmSnapShotInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSort.resx">
+      <DependentUpon>FrmSort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSpecialTime.resx">
+      <DependentUpon>FrmSpecialTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="プロパティ画面\FrmStoneProperty.resx">
+      <DependentUpon>FrmStoneProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ユーザコントロール\UserControlPiece.resx">
+      <DependentUpon>UserControlPiece.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ユーザコントロール\UserControlStone.resx">
+      <DependentUpon>UserControlStone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ユーザコントロール\UserControlTextAlignment.resx">
+      <DependentUpon>UserControlTextAlignment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ユーザコントロール\UserControlTextAlignment2.resx">
+      <DependentUpon>UserControlTextAlignment2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxKnTViewLib">
+      <Guid>{05555550-7D5F-11D2-A1C7-006008E3229E}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="KnTViewLib">
+      <Guid>{05555550-7D5F-11D2-A1C7-006008E3229E}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main2.ico" />
+    <None Include="Resources\Ballon.png" />
+    <None Include="Resources\Piece.png" />
+    <None Include="Resources\Stone.png" />
+    <None Include="Resources\plugin.png" />
+    <None Include="Resources\link_add.png" />
+    <None Include="Resources\link_break.png" />
+    <None Include="Resources\link.png" />
+    <None Include="Resources\link_edit.png" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\lock_open.png" />
+    <None Include="Resources\lock_16.png" />
+    <None Include="Resources\lock_open_16.png" />
+    <None Include="Resources\tablet.png" />
+    <None Include="Resources\terminal.png" />
+    <None Include="Resources\eye-icon.png" />
+    <None Include="Resources\non-eye-icon.png" />
+    <Content Include="TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

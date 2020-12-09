@@ -1,0 +1,204 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+iGreen.Controls.uControls.uLabelX
+</name>
+</assembly>
+<members>
+<member name="P:iGreen.Controls.uControls.uLabelX.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:iGreen.Controls.uControls.uLabelX.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="E:iGreen.Controls.uControls.uLabelX.uLabelX.PropertyChanged">
+	<summary>
+ Event Invoked when Property Changed
+ </summary>
+	<param name="_RecreateHandle">Flag to set control handle to be create again or not</param>
+	<remarks></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.#ctor">
+	<summary>
+ Initializes a new instance of the <see cref="uLabelX"></see> control class.
+ <example>Private <i>instance</i> As <see cref="uLabelX">New</see> uLabelX</example>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.OnPropertyChanged(System.Boolean)">
+	<summary>
+ Invoked when Property Changed <br></br><br></br>
+		<example><i>Declaration :</i> Protected Event <see cref="PropertyChanged"></see>(ByVal _RecreateHandle As Boolean)<br></br>
+			<i>On Constructor :</i> AddHandler <see cref="PropertyChanged"></see>, AddressOf <see cref="OnPropertyChanged"></see>
+		</example>
+	</summary>
+	<remarks><i>How to Call..? &gt;&gt; : </i>RaiseEvent <see cref="PropertyChanged"></see>()</remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.Image">
+	<summary>
+ Gets or sets the Image of the control, An abstract base class that provides functionality for the <see cref="Bitmap"></see> and Metafile descended classes.
+ </summary>
+	<value></value>
+	<returns>The Image As <see cref="System.Drawing.Image"></see> of the control. The default is the value of the <see cref="iGreen.Controls.uControls.uLabelX.uLabelX.Image"></see> property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.ImageSize">
+	<summary>
+ Gets or sets the ImageSize of the control. Specifies the Image Size of Control
+ </summary>
+	<value></value>
+	<returns>The ImageSize As <see cref="iGreen.Controls.uControls.uLabelX.Common.ImageSizes"></see> of the control. The default is the value of the <see cref="iGreen.Controls.uControls.uLabelX.uLabelX.ImageSize"></see> property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.BorderStyle">
+	<summary>
+ Gets or sets the BorderStyle of the control, Specifies the border style of Control
+ </summary>
+	<value></value>
+	<returns>The BorderStyle As <see cref="iGreen.Controls.uControls.uLabelX.Common.BorderStyles"></see> of the control. The default is the value of the <see cref="iGreen.Controls.uControls.uLabelX.uLabelX.BorderStyle"></see> property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.BorderDashStyle">
+	<summary>
+ Gets or sets the BorderDashStyle of the control, Specifies the border dash style of Control
+ </summary>
+	<value></value>
+	<returns>The BorderDashStyle As <see cref="System.Drawing.Drawing2D.DashStyle"></see> of the control. The default is the value of the iGreen.Controls.uControls.uLabelX.BorderDashStyle property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.BorderWidth">
+	<summary>
+ Gets or sets the BorderWidth of the control, Represents a 32-bit signed integer.
+ </summary>
+	<value></value>
+	<returns>The BorderWidth <see cref="System.Int32"></see> of the control. The default is the value of the iGreen.Controls.uControls.uLabelX.BorderWidth property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.BorderColor">
+	<summary>
+ Gets or sets the BorderColor of the control, Represents an ARGB (alpha, red, green, blue) color
+ </summary>
+	<value></value>
+	<returns>The BorderColor System.Drawing.Color of the control. The default is the value of the iGreen.Controls.uControls.uLabelX.BorderColor property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.Text">
+	<summary>
+ Gets or sets the Text of the control, Represents Text as a series of Unicode characters.
+ </summary>
+	<value></value>
+	<returns>The Text System.String of the control. The default is the value of the iGreen.Controls.uControls.uLabelX.Text property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.TextAlign">
+	<summary>
+ Specifies alignment of <see cref="Text"></see> on the control. Placement and direction of text in relation to the control border 
+ </summary>
+	<value></value>
+	<returns>The TextAlign As <see cref="System.Drawing.ContentAlignment"></see>The default is the value of the <see cref="TextAlign"></see> property.</returns>
+	<remarks></remarks>
+</member><member name="P:iGreen.Controls.uControls.uLabelX.uLabelX.CreateParams">
+	<summary>
+ Summarize the information needed when creating a control.
+ </summary>
+	<value></value>
+	<returns>CreateParams As <see cref="System.Windows.Forms.CreateParams"></see></returns>
+	<remarks>Overrides base class <see cref="Control"></see> CreateParams property<br></br>Inherits <see cref="System.Object"></see>
+		<br></br>Member of: <see cref="System.Windows.Forms"></see></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Call(s) to Paints the control background.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs that contains the event data.</param>
+	<remarks><b>Here don't allow the background to be painted</b>, <i>Otherwise the background draw task spoil the recently repainted parent control content by crushing out the OnPaintBackground() method </i></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.OnTabIndexChanged(System.EventArgs)">
+	<summary>
+ Raises the iGreen.Controls.uControls.uLabelX.uLabelX.TabIndexChanged event.
+ </summary>
+	<param name="e">An <see cref="System.EventArgs"></see> that contains the event data.</param>
+	<remarks>Temporary solution for copy and paste uLabelX control name display issue</remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.OnFontChanged(System.EventArgs)">
+	<summary>
+ Raises the iGreen.Controls.uControls.uLabelX.uLabelX.FontChanged event.
+ </summary>
+	<param name="e">An System.EventArgs that contains the event data.</param>
+	<remarks></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.OnForeColorChanged(System.EventArgs)">
+	<summary>
+ Raises the iGreen.Controls.uControls.uLabelX.uLabelX.ForeColorChanged event.
+ </summary>
+	<param name="e">An System.EventArgs that contains the event data.</param>
+	<remarks></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the System.Windows.Forms.Control.Paint event, Call(s) to <b>RePaint</b> the control using the method <b><i>instance</i>.Invalidate()</b>
+	</summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs that contains the event data.</param>
+	<remarks>Overrides base class <seealso cref="Control">MyBase</seealso> OnPaint()</remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.DrawControlBorder(System.Drawing.Graphics@,System.Drawing.Rectangle)">
+	<summary>
+ Call this from OnPaint() to Draw Control's Border 
+ </summary>
+	<param name="g">Graphics Object Used to Paint</param>
+	<param name="_ClientRect">The Rectangle that represents the client area of the control.</param>
+	<remarks></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.DrawControlText(System.Drawing.Graphics@,System.Drawing.Rectangle)">
+	<summary>
+ Call this from OnPaint() to Draw Control's Text
+ </summary>
+	<param name="g">Graphics Object Used to Paint</param>
+	<remarks></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.DrawControlImage(System.Drawing.Graphics@,System.Drawing.Rectangle)">
+	<summary>
+ Call this from OnPaint() to Draw Control's Image
+ </summary>
+	<param name="g">Graphics Object Used to Paint</param>
+	<param name="_ClientRect">The Rectangle that represents the client area of the control.</param>
+	<remarks></remarks>
+</member><member name="M:iGreen.Controls.uControls.uLabelX.uLabelX.GetTextRectangle(System.String,System.Drawing.Font,System.Drawing.Graphics@,System.Drawing.Rectangle,System.Drawing.ContentAlignment)">
+	<summary>
+ Get(s) the Text Rectangle to draw String, Call this from OnPaint() to Draw Control's Text
+ </summary>
+	<param name="_Text">Gets or sets the Text of the control, Represents Text as a series of Unicode characters.</param>
+	<param name="_Font">System.Drawing.Font, Defines a particular format for text, including font face, size, and style attributes. </param>
+	<param name="g">Graphics Object Used to Paint</param>
+	<param name="_ClientRect">The Rectangle that represents the client area of the control.</param>
+	<param name="_TextAlign">Specifies alignment of text on the control.</param>
+	<returns></returns>
+	<remarks>Public Enum System.Drawing.ContentAlignment As Integer</remarks>
+</member><member name="T:iGreen.Controls.uControls.uLabelX.uLabelX">
+	<summary>
+ iGreen.Controls.uControls.uLabelX.uLabelX { .Net Transparent Label Control Class}
+ </summary>
+	<remarks>.Net Transparent <see cref="Label"></see> Control</remarks>
+</member><member name="F:iGreen.Controls.uControls.uLabelX.Common.BorderStyles.None">
+	<summary>
+ No border.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:iGreen.Controls.uControls.uLabelX.Common.BorderStyles.FixedSingle">
+	<summary>
+ A single-line border.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:iGreen.Controls.uControls.uLabelX.Common.BorderStyles.Fixed3D">
+	<summary>
+ A three-dimensional border.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:iGreen.Controls.uControls.uLabelX.Common.BorderStyles.uControlStyle">
+	<summary>
+ A single-line border with options to change border color, adjust width and line style.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:iGreen.Controls.uControls.uLabelX.Common.BorderStyles">
+	<summary>
+ Specifies the border style for a uControl.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:iGreen.Controls.uControls.uLabelX.Common.ImageSizes">
+	<summary>
+ Specifies the Image Size of <b>uControls</b> Control
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

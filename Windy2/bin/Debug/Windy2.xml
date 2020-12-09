@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Windy2
+</name>
+</assembly>
+<members>
+<member name="M:Windy2.Module1.ToBackColor(System.Drawing.Color)">
+	<summary>
+ 反対色を作る
+ </summary>
+	<param name="Source"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Windy2.Module1.AlignmentValue(System.Drawing.ContentAlignment)">
+	<summary>
+ ContentAlignmentを分ける
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks>
+ X=横方向(0:左 1:中 2:右)
+ Y=縦方向(0:上 1:中 2:下)
+ </remarks>
+</member><member name="M:Windy2.Module1.CheckedRadioButton(System.Windows.Forms.GroupBox)">
+	<summary>
+ グループ内の選択されているラジオボタンを検索する
+ </summary>
+	<param name="top"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Windy2.Module1.AlignmentButtons(System.Windows.Forms.GroupBox,System.Windows.Forms.GroupBox)">
+	<summary>
+ 水平オプショングループと垂直オプショングループから文字位置を検索する
+ </summary>
+	<param name="HGroup"></param>
+	<param name="VGroup"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Windy2.Module1.GetAlignmentValue(System.Int32,System.Int32)">
+	<summary>
+ XYからContentAlignmentに変換
+ </summary>
+	<param name="H_Value">横方向位置(0:左 1:中 2:右)</param>
+	<param name="V_Value">縦方向位置(0:上 1:中 2:下)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Windy2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Windy2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Windy2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Windy2.FrmParent.ToolButton_AddRow_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_ZoomOut_Click(System.Object,System.EventArgs)">
+	<summary>
+ 縮小
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_ZoomIn_Click(System.Object,System.EventArgs)">
+	<summary>
+ 拡大
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_Front7Day_Click(System.Object,System.EventArgs)">
+	<summary>
+ ７日前へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_Today_Click(System.Object,System.EventArgs)">
+	<summary>
+ 今日へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_Back7Day_Click(System.Object,System.EventArgs)">
+	<summary>
+ ７日後へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_TopPiace_Click(System.Object,System.EventArgs)">
+	<summary>
+ 先頭ピースへ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_LastPiace_Click(System.Object,System.EventArgs)">
+	<summary>
+ 最終ピースへ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_PeaceWide_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピース拡大
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_PeaceNarrow_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピース縮小
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_SpecialTimeSetting_Click(System.Object,System.EventArgs)">
+	<summary>
+ 特別期間設定
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.FrmParent_DragDrop(System.Object,System.Windows.Forms.DragEventArgs)">
+	<summary>
+ ドラッグによるファイルオープン
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.SetFileList">
+	<summary>
+ 読込履歴をメニューへ反映させる
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.FileListAdd(System.String)">
+	<summary>
+ 履歴に追加する
+ </summary>
+	<param name="Value"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_Print_Click(System.Object,System.EventArgs)">
+	<summary>
+ 印刷
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_AddCol_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_DelCol_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_ToUp_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行上へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_ToDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行下へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_DelRow_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_ToLeft_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列左へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_ToRight_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列右へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_AddLink_Click(System.Object,System.EventArgs)">
+	<summary>
+ 関係線作成
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_AddBalloon_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーン作成
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.MenuProperty_Click(System.Object,System.EventArgs)">
+	<summary>
+ シートプロパティ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.FrmParent_MdiChildActivate(System.Object,System.EventArgs)">
+	<summary>
+ 子フォームが変わった
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.SetIconImage(AxKnTViewLib.AxKnTView)">
+	<summary>
+ アイコンセット
+ </summary>
+	<param name="Obj"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.MenuSet_Click(System.Object,System.EventArgs)">
+	<summary>
+ 読込履歴
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.MenuSetting_Click(System.Object,System.EventArgs)">
+	<summary>
+ 設定
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmParent.ToolButton_ProgressLine_Click(System.Object,System.EventArgs)">
+	<summary>
+ 稲妻線表示・非表示
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:Windy2.FrmMain.WorkFileName">
+	<summary>
+ 作業ファイル名
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_MouseDownEvent(System.Object,AxKnTViewLib._DKnTViewEvents_MouseDownEvent)">
+	<summary>
+ サブメニュー表示
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_DblClick(System.Object,System.EventArgs)">
+	<summary>
+ アイテムダブルクリックでプロパティ表示
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_AfterPieceAdd(System.Object,AxKnTViewLib._DKnTViewEvents_AfterPieceAddEvent)">
+	<summary>
+ ピースの追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_AfterPieceMove(System.Object,AxKnTViewLib._DKnTViewEvents_AfterPieceMoveEvent)">
+	<summary>
+ ピースを移動した
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_PieceMoveStart(System.Object,AxKnTViewLib._DKnTViewEvents_PieceMoveStartEvent)">
+	<summary>
+ ドラッグによる関係線作成
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_AfterPieceTimeChange(System.Object,AxKnTViewLib._DKnTViewEvents_AfterPieceTimeChangeEvent)">
+	<summary>
+ ピースの長さを変えた
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_AfterPieceProgressMouseChange(System.Object,AxKnTViewLib._DKnTViewEvents_AfterPieceProgressMouseChangeEvent)">
+	<summary>
+ 達成率を動かした
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_DragTipFormat(System.Object,AxKnTViewLib._DKnTViewEvents_DragTipFormatEvent)">
+	<summary>
+ ドラッグ表示
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_HeaderPrint(System.Object,AxKnTViewLib._DKnTViewEvents_HeaderPrintEvent)">
+	<summary>
+ 印刷ヘッダー関係
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.SheetInfomation">
+	<summary>
+ 親フォームへの情報表示
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.RowAdd(Windy2.FrmMain.enumAddRow)">
+	<summary>
+ 行追加
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.RowDelete">
+	<summary>
+ 行削除
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.RowHidden">
+	<summary>
+ 行非表示設定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ColumnAdd(Windy2.FrmMain.enumColumnAdd)">
+	<summary>
+ 列追加
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ColumnDelete">
+	<summary>
+ 列削除
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Windy2.FrmMain.enum_MoveRow.ToUp">
+	<summary>
+ 上へ移動
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Windy2.FrmMain.enum_MoveRow.ToDown">
+	<summary>
+ 下へ移動
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Windy2.FrmMain.enum_MoveRow">
+	<summary>
+ 行移動値
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.MoveRow(Windy2.FrmMain.enum_MoveRow)">
+	<summary>
+ 行移動
+ </summary>
+	<param name="Value"></param>
+	<remarks></remarks>
+</member><member name="F:Windy2.FrmMain.enum_MoveCol.ToLeft">
+	<summary>
+ 左へ移動
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Windy2.FrmMain.enum_MoveCol.ToRight">
+	<summary>
+ 右へ移動
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Windy2.FrmMain.enum_MoveCol">
+	<summary>
+ 列移動値
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.MoveCol(Windy2.FrmMain.enum_MoveCol)">
+	<summary>
+ 列移動
+ </summary>
+	<param name="Value"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.BalloonnAdd">
+	<summary>
+ バルーンの追加
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.SaveData">
+	<summary>
+ データ保存
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ReadData">
+	<summary>
+ データ読込
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.SheetPrint">
+	<summary>
+ 印刷
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.MoveToday">
+	<summary>
+ 今日へ移動
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.MoveTop">
+	<summary>
+ 先頭ピースまで移動
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.MoveLast">
+	<summary>
+ 最終ピースまで移動
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.SpecialTimeSetting">
+	<summary>
+ 特別期間設定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.EditSheetProperty">
+	<summary>
+ シートプロパティ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.PastePiece(System.Int32)">
+	<summary>
+ コピーしたピースの貼り付け
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CTMP_DeletePeace_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピース削除メニュー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.AddRelatedLine(KnTViewLib.Piece@,KnTViewLib.Piece@,System.Int32)">
+	<summary>
+ 関係線追加
+ </summary>
+	<param name="pieceSrc"></param>
+	<param name="pieceDest"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMP_AddBalloon_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーン追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMNO_Paste_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピース・ストーン貼り付け
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMP_Copy_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピースコピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ContextMenuPeace_Opening(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ ピースメニュー展開
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMP_AddRelatedLine_Click(System.Object,System.EventArgs)">
+	<summary>
+ 関係線追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.AddRelatedLine">
+	<summary>
+ 関係線追加
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMP_Property_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピースプロパティ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMRL_Delete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 関係線削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMRL_Change_Click(System.Object,System.EventArgs)">
+	<summary>
+ 関係線向き反転
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMRL_Position_Click(System.Object,System.EventArgs)">
+	<summary>
+ 関係線位置変更
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMRL_LineType_Click(System.Object,System.EventArgs)">
+	<summary>
+　関係線種類変更
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMSB_Style0_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーン形状１
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMSB_Style1_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーン形状２
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMSB_Style2_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーン形状３
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMSB_DeleteBalloon_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーン削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CTMP_ChangeStone_Click(System.Object,System.EventArgs)">
+	<summary>
+ ストーンへ変換
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_DeleteStone_Click(System.Object,System.EventArgs)">
+	<summary>
+ ストーン削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_ChagePeace_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピースへ変換
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_AddRelatedLine_Click(System.Object,System.EventArgs)">
+	<summary>
+ 関係線追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_AddBalloon_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーン追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_Property_Click(System.Object,System.EventArgs)">
+	<summary>
+ ストーンのプロパティ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_Copy_Click(System.Object,System.EventArgs)">
+	<summary>
+ ストーンコピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ContextMenuPiecePane_Opening(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ メニュー展開
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ContextMenuStone_Opening(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ ストーンメニュー展開
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.TView_BeforeCellEdit(System.Object,AxKnTViewLib._DKnTViewEvents_BeforeCellEditEvent)">
+	<summary>
+ セル編集
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMCH_Property_Click(System.Object,System.EventArgs)">
+	<summary>
+ ヘッダープロパティ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMSB_Property_Click(System.Object,System.EventArgs)">
+	<summary>
+ バルーンプロパティ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ContextMenuCellHeader_Opening(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ ヘッダータイトル展開
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMCH_Merge_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル結合
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMCH_AddColToFore_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列の追加（前）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMCH_AddColToBack_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列の追加（後ろ）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMCD_MoveToLeft_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列移動（左）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMCD_MoveToRight_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列移動（右）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMCH_DelCol_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_RowAddToUp_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル行追加（上）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_RowAddToDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル行追加（下）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_RowAddToBottom_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル行追加（最下段）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_RowMoveToUp_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル行移動（上）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_RowMoveToDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル行移動（下）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_RowDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル行削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ColAddToLeft_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル列追加（左）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ColAddToRight_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル列追加（右）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ColAddToEnd_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル列追加（最右）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ColMoveToLeft_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル列移動（左）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ColMoveToRight_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル列移動（右）
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ColDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ セル列削除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_CopyFromDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ 下セルのコピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_CopyFromUp_Click(System.Object,System.EventArgs)">
+	<summary>
+ 上セルのコピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_CellProperty_Click(System.Object,System.EventArgs)">
+	<summary>
+ セルプロパティ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMNO_Property_Click(System.Object,System.EventArgs)">
+	<summary>
+ 全体プロパティ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMP_MoveToUp_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピースを上へ移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMP_MoveToDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピースを下に移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_MoveToUp_Click(System.Object,System.EventArgs)">
+	<summary>
+ ストーンを上に移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_MoveToDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ ストーンを下に移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMS_CopyFormat_Click(System.Object,System.EventArgs)">
+	<summary>
+ ストーン書式複写
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CTMP_CopyFormat_Click(System.Object,System.EventArgs)">
+	<summary>
+ ピース書式コピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ItemCopy_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行コピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ContextMenuCell_Opening(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ メニュー展開
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ItemPasteToUp_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行上へコピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ItemPasteToDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行下へコピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMC_ItemPasteToBottom_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行最下段へコピー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.PasteRow(KnTViewLib.Item)">
+	<summary>
+ 行のペースト
+ </summary>
+	<param name="ToItem"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.ContextMenuSheetNothing_Opening(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ メニュー展開
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMSN_RowAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行追加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.CMSN_ItemPaste_Click(System.Object,System.EventArgs)">
+	<summary>
+ 行貼り付けメニュー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:Windy2.FrmMain.ViewInazuma">
+	<summary>
+ 稲妻線表示・非表示プロパティ
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Windy2.FrmMain.DrawInazuma">
+	<summary>
+ 稲妻線表示非表示
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Windy2.ModuleRegistry.WriteReg(System.String,System.String,System.Object)">
+	<summary>
+ レジストリに書き込む
+ </summary>
+	<param name="Section">セクション名</param>
+	<param name="KeyName">キー名</param>
+	<param name="Value">書き込み値</param>
+	<remarks></remarks>
+</member><member name="M:Windy2.ModuleRegistry.ReadReg(System.String,System.String,Windy2.ModuleRegistry.enum_Type)">
+	<summary>
+ レジストリを読み込む
+ </summary>
+	<param name="Section">セクション名</param>
+	<param name="KeyName">キー名</param>
+	<param name="ValueType">値型</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Windy2.ClassFormControl.TargetForm">
+	<summary>
+ 描写ターゲットフォーム
+ </summary>
+	<value></value>
+	<remarks></remarks>
+</member><member name="P:Windy2.ClassFormControl.Title">
+	<summary>
+ 表示タイトル
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Windy2.ClassFormControl.Edited">
+	<summary>
+ 変更スイッチ
+ </summary>
+	<value>TRUE:変更された</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Windy2.ClassFormControl.IsEdited">
+	<summary>
+ 変更されたかどうか確認メソッド
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Windy2.ClassFormControl.DrawAster">
+	<summary>
+ 変更をフォームのタイトルに描写する
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Windy2.ClassFormControl">
+	<summary>
+ フォーム内容が変更されたかどうか確認クラス
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Windy2.DataGridViewMaskedTextBoxColumn.Mask">
+	<summary>
+ MaskedTextBoxのMaskプロパティに適用する値
+ </summary>
+</member><member name="T:Windy2.DataGridViewMaskedTextBoxColumn">
+	<summary>
+ DataGridViewMaskedTextBoxCellオブジェクトの列を表します。
+ </summary>
+</member><member name="T:Windy2.DataGridViewMaskedTextBoxCell">
+	<summary>
+ MaskedTextBoxで編集できるテキスト情報を
+ DataGridViewコントロールに表示します。
+ </summary>
+</member><member name="T:Windy2.DataGridViewMaskedTextBoxEditingControl">
+	<summary>
+ DataGridViewMaskedTextBoxCellでホストされる
+ MaskedTextBoxコントロールを表します。
+ </summary>
+</member>
+</members>
+</doc>

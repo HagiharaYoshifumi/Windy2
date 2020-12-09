@@ -1,0 +1,15 @@
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\bin\Debug\uLabelXTest.exe
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\bin\Debug\uLabelXTest.pdb
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\bin\Debug\uLabelXTest.xml
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\bin\Debug\iGreen.Controls.uControls.uLabelX.dll
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\bin\Debug\iGreen.Controls.uControls.uLabelX.pdb
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.FrmMain.resources
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.Resources.resources
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.vbproj.GenerateResource.Cache
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.exe
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.xml
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.pdb
+C:\MakeSource\Windy(スケジューラー)\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.exe
+C:\MakeSource\Windy(スケジューラー)\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.xml
+C:\MakeSource\Windy(スケジューラー)\uLabelX Control\ULabelXTest\obj\Debug\uLabelXTest.pdb

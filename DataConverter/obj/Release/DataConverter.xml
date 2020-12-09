@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DataConverter
+</name>
+</assembly>
+<members>
+<member name="P:DataConverter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DataConverter.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DataConverter.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:DataConverter.Module1.FileEncode(System.String,System.String)">
+	<summary>
+ ファイルをエンコードする
+ </summary>
+	<param name="FromName">エンコードするファイル</param>
+	<param name="ToFile">エンコード先ファイル</param>
+	<remarks></remarks>
+</member><member name="M:DataConverter.Module1.FileDecode(System.String,System.String)">
+	<summary>
+ ファイルをデコードする
+ </summary>
+	<param name="FromName">デコード元ファイル</param>
+	<param name="ToFile">デコード先ファイル</param>
+	<remarks></remarks>
+</member><member name="M:DataConverter.Module1.SQLEncode(System.String)">
+	<summary>
+ 指定した文字をBASE64形式に変換する
+ </summary>
+	<param name="Value">変換元文字列</param>
+	<returns>変換後(BASE64)文字列</returns>
+	<remarks></remarks>
+</member><member name="M:DataConverter.Module1.SQLDecode(System.String)">
+	<summary>
+ BASE64に変換された文字列を復号する
+ </summary>
+	<param name="ValueBASE64">変換元BASE64文字列</param>
+	<returns>復号文字列</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

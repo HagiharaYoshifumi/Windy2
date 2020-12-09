@@ -1,0 +1,28 @@
+﻿Alignment   ContentAlignment
+
+Property HeaderTextAlign() As Integer
+        Get
+            Return Edit1.ContentAlignment
+        End Get
+        Set(value As Integer)
+            Edit1.ContentAlignment = value
+            Dim Posi As Point = AlignmentValue(value)
+            Select Case Posi.X
+                Case 0 : OptHAlign0.Checked = True
+                Case 1 : OptHAlign1.Checked = True
+                Case Else : OptHAlign2.Checked = True
+            End Select
+            Select Case Posi.Y
+                Case 0 : OptVAlign0.Checked = True
+                Case 1 : OptVAlign1.Checked = True
+                Case Else : OptVAlign2.Checked = True
+            End Select
+
+        End Set
+    End Property
+
+	  Edit1.ContentAlignment = AlignmentButtons(GroupBox1, GroupBox2)
+
+●エラー処理
+  Logs.PutErrorEx("休日設定エラー", ex, True)
+      Logs.PutErrorEx("ピース移動に失敗しました", ex, True)

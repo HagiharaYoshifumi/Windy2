@@ -1,0 +1,9 @@
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\bin\Debug\iGreen.Controls.uControls.uLabelX.dll
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\bin\Debug\iGreen.Controls.uControls.uLabelX.pdb
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\bin\Debug\iGreen.Controls.uControls.xml
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\obj\Debug\iGreen.Controls.uControls.uLabelX.Resources.resources
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\obj\Debug\uLabelX.vbproj.GenerateResource.Cache
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\obj\Debug\iGreen.Controls.uControls.uLabelX.dll
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\obj\Debug\iGreen.Controls.uControls.xml
+C:\Documents and Settings\yhagihara.KAKOGAWA\My Documents\Downloads\uLabelXControlSource\uLabelX Control\uLabelX\obj\Debug\iGreen.Controls.uControls.uLabelX.pdb

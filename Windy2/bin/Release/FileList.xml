@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfFileListCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileListCollection>
+    <Title>新規スケジュール</Title>
+    <FileName>C:\SnapShot\新規スケジュール.wdf</FileName>
+  </FileListCollection>
+  <FileListCollection>
+    <Title>新規スケジュール</Title>
+    <FileName>C:\SnapShot\新規スケジュール22.wdf</FileName>
+  </FileListCollection>
+</ArrayOfFileListCollection>
